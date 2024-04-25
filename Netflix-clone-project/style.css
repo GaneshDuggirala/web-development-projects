@@ -1,0 +1,230 @@
+
+@media only screen and (min-width: 1250px){
+
+    *{
+        margin: 0;
+        padding: 0px;
+        border: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Main-head */
+    
+    .main-head{
+        width: 100%;
+        height: 600px;
+        background-image: url(netflix-mainback.jpg)  ,linear-gradient(rgba(0, 0, 0, 0.459),rgba(0, 0, 0, 0.491));
+        background-size: cover;
+        opacity: 50.5;
+        background-blend-mode:darken;
+        background-repeat: no-repeat;
+    }
+
+    /* netflix-header */
+
+    .netflix-header{
+        display: flex;
+        width:100%;
+        height:86px;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    /* netflix-logo */
+
+    .netflix-logo{
+        width: 150px;
+        height: 50px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        margin-left: 153px;
+    }
+
+    .select-lan{
+        width: 76px;
+        height: 32px;
+        background-color: transparent;
+        color: white;
+        border: 0.5px solid white;
+        border-radius: 5px;
+        margin-left: 640px;
+
+    }
+
+    /* Button */
+
+    .btn{
+        width: 76px;
+        height: 32px;
+        background-color: #E50914;
+        border-radius: 5px;
+        border: none;
+        color: #ffffff;
+        font-weight: 550;
+        margin-right: 153px;
+    }
+
+    /* header information */
+
+    .head-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #ffffff;
+        margin-top: 200px;
+    }
+
+    .info-h1{
+        font-size: 48px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .info-p{
+        font-size: 24px;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+
+    .info-h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+    .search-tab{
+        background-color: transparent;
+        width: 300px;
+        padding: 18px;
+        border: 0.5px solid #ffffff;
+        border-radius: 4px;
+        color: #ffffff;
+    }
+    .getstarted{
+        width:190px;
+        height: 53px;
+        border-radius: 4px;
+        background-color: #E50914;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        border: none;
+    }
+    .second-head{
+        background-color: black;
+    }
+    .content-box1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: #ffffff;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+    .inside1-box1{
+        display: block;
+    }
+    #h2inside{
+        font-size: 48px;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+
+    .second-head .content-box1 .inside1-box1 p{
+        font-size: 25px;
+    }
+
+    /* third head */
+
+    .third-head{
+        background-color: black;
+    }
+
+    .content-box2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: #ffffff;
+        margin-left: 120px;
+        margin-right: 120px;
+    }
+
+    .third-head .content-box2 .inside2-box2 p{
+        font-size: 25px;
+    }
+
+    /* FAQ'S */
+
+    .questions{
+        background-color: black;
+        color: white;
+    }
+
+    .frequently-questions{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .frequently-question1{
+        display: flex;
+        justify-content: space-between;
+        width:60%;
+        padding: 20px;
+        font-size: 24px;
+        background-color: rgb(30, 30, 30);
+        margin-bottom: 4px;
+    }
+
+    #f-h2{
+        width:60%;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .frequently-question1:hover,#f-h2:hover{
+        background-color: rgb(57, 56, 56);
+    }
+
+    /* footer */
+
+    footer{
+        display: flex;
+        background-color: black;
+        justify-content: space-around;
+        padding: 40px;
+    }
+
+    .footer-1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px 0px  50px 0px;
+    }
+    .footer-1 a{
+        text-decoration: none;
+        color: white;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 4px;
+    }
+
+    .footer-1 a:hover{
+        background-color: rgb(84, 83, 83);
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1250px) {
+    html{
+        display: none;
+    }
+}

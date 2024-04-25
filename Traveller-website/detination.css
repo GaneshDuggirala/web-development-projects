@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    width: 100%;
+    display:inline;
+    margin-top: 0;
+}
+
+@media  screen and (max-width:992px) {
+    .screenchange{
+        display: none;
+    }
+}
